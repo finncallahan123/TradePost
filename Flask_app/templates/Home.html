@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <link rel="stylesheet" type"text/css" href="../static/StyleForHome.css">
+    <!-- <link rel="stylesheet" type"text/css" href="{{ url_for('static', filename='StyleForHome.css')}}"> -->
+
+  </head>
+  <body>
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-12">
+          <h1 id="Title">Trade Post</h1>
+          <h4 class="Title">Bartering, made simple.</h4>
+        </div>
+      </div>
+    <div class="row ">
+      <div class="col-xs-12">
+        <nav class="navbar navbar-default">
+      <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#"></a>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav">
+            <li id="home"><a href="{{ url_for('home') }}">Home <span class="sr-only">(current)</span> </a></li>
+            <li id="Profile"><a href="{{ url_for('timeDisplay') }}">Feed <span class="sr-only">(current)</span></a></li>
+            <li id="Feed"><a href="{{ url_for('login') }}">Search Items<span class="sr-only">(current)</span> </a></li>
+            <li id = "Search"><a href="{{ url_for('register') }}">You <span class="sr-only">(current)</span> </a></li>
+
+          </ul>
+        </div><!-- /.navbar-collapse -->
+      </div><!-- /.container-fluid -->
+    </nav>
+    </div>
+    <div class="row">
+      <div class="col-xs-6">
+        <h4 id="Text">Trade Post is a simple platform, desinged for you to trade your stuff for other people's stuff that YOU need. Selling things online
+          can be difficult; so, take your talents of trading or lack there of (it's so easy to use it hurts) and get started on trade post today!
+          Click <a href="{{ url_for('register') }}">register</a> to get started!
+        </h4>
+      </div>
+
+
+      <div class="col-xs-6">
+        <img id="Image2" src="../static/TradePost.png" alt="trade Post">
+
+      </div>
+    </div>
+  </div>
+  <div class="container">
+    <div class="row Green">
+      <div class="col-xs-6">
+        <img id="Image2" src="../static/PeopleTrading.png" alt="trade Post">
+      </div>
+      <div class="col-xs-6">
+        <h4 id = "Text">Here at Trade post integrity is critical. In order to protect the validity of all the products there will be a rating system where both parties in a trade will be able to rate the other regarding quality
+          of product (and how it matches the description) or kindness in the process or what have you. If your trade is not matched with the product you desired, the Trade Post team will refund you and the scammer will be banned.
+        </h4>
+
+      </div>
+
+    </div>
+
+  </div>
+
+
+
+
+
+  </body>
+</html>

@@ -1,0 +1,66 @@
+#Title{
+  color: #56E643;
+
+}
+h4 {
+  letter-spacing: 3px;
+  color: #4AC239
+}
+.aboutText{
+  padding-top: 10%;
+  /* padding-left: 10%; */
+  padding-right: 10%;
+}
+#Text {
+  padding-left: 10px;
+  padding-top: 20%;
+  font-family: sans-serif;
+
+}
+#Profile {
+
+   padding-left: 200px;
+}
+#Feed{
+  padding-left: 200px;
+}
+#Search{
+  padding-left: 200px;
+}
+div{
+  border-radius: 1px;
+  border-color: red;
+}
+#Image {
+  width: 20px;
+  height:20px;
+}
+#Image2 {
+  width: 450px;
+  height:450px;
+  padding-left: 15%;
+  padding-top: 10%;
+}
+.Green{
+  background-color: rgba(200, 200, 200, 0.2);
+}
+#Feed1{
+  width: 300px;
+  height:300px;
+
+}
+.PasswordRow{
+  padding-top: 5%;
+  padding-left: 40%
+}
+.EmailRow{
+  padding-top: 5%;
+  padding-left: 40%
+}
+
+.TPBackground{
+  background-image: url("../static/PeopleTrading.png");
+}
+.Test{
+  background-color: rgba(255, 255, 255, 0.5);
+}

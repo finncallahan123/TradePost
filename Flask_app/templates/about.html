@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <link rel="stylesheet" type"text/css" href="../static/StyleForHome.css">
+  </head>
+  <body>
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-12">
+          <h1 id="Title">Trade Post</h1>
+          <h4 class="Title">Bartering, made simple.</h4>
+        </div>
+      </div>
+    <div class="row ">
+      <div class="col-xs-12">
+        <nav class="navbar navbar-default">
+      <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#"></a>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav">
+            <li id="home"><a href="{{ url_for('home') }}">Home <span class="sr-only">(current)</span> </a></li>
+            <li id="Profile"><a href="{{ url_for('timeDisplay') }}">Feed <span class="sr-only">(current)</span></a></li>
+            <li id="Feed"><a href="{{ url_for('login') }}">Search Items<span class="sr-only">(current)</span> </a></li>
+            <li id = "Search"><a href="{{ url_for('register') }}">You <span class="sr-only">(current)</span> </a></li>
+
+          </ul>
+        </div><!-- /.navbar-collapse -->
+      </div><!-- /.container-fluid -->
+    </nav>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-4">
+            <img id="Feed1" src="../static/TradePost.png" alt="trade Post">
+        </div>
+        <div class="col-xs-8 aboutText">
+          <h1>Hi, I'm Finn Callahan!</h1>
+          <h1>   </h1>
+          <h4>Now more than ever, regarding the Coronavirus, trading valuables for valuables could be very helpful.  However, from my knowledge, there is no easy-to-use barter site out there. Trade Post could not only become a place for the common person to get rid of their junk in exchange for something they value, but also could become a hub for the good traders of the world eager to profit.
+	There are a few specific functionality aspects that make Trade Post effective and fair.  At the basic level users have accounts where they can post items they are looking to trade. In the description of that item they will include items they are looking for, that way another user can search for that item and hopefully have the requirements for a trade.  There also needs to be a rating for each user for the integrity of the sight.  After each use, users that received a product will have the opportunity to write a review on the quality of the product and how it matched their description.
+	The home page will have two search bars, one for specific things that a user is searching for and the other for people looking for items that that same user has. Both searches will take you to feeds with the products you’re looking for.  In a user’s account there will be an “inbox” and a “posts” for trades received and trades posted.
+	Payment can be done in two pays: either by each transaction or through a subscription.
+          </h4>
+        </div>
+      </div>
+    </div>
+
+  </body>
+</html>
